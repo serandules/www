@@ -1,0 +1,29 @@
+{
+    "name": "www",
+    "description": "www",
+    "version": "0.0.0",
+    "author": {
+        "name": "serandives",
+        "email": "serandives@gmail.com"
+    },
+    "dependencies": {
+        "express": "4.*",
+        "mongoose": "5.1.8",
+        "body-parser": "1.*",
+        "logger": "serandules/logger#master",
+        "utils": "serandules/utils#master",
+        "serandi": "serandules/serandi#master",
+        "locate": "serandules/locate#master",
+        "auth": "serandules/auth#master",
+        "user-service": "serandules/user-service#master",
+        "client-service": "serandules/client-service#master",
+        "token-service": "serandules/token-service#master",
+        "vehicle-service": "serandules/vehicle-service#master",
+        "vehicle-make-service": "serandules/vehicle-make-service#master",
+        "vehicle-model-service": "serandules/vehicle-model-service#master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/serandives/www.git"
+    }
+}
