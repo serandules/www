@@ -19,7 +19,7 @@ var googleKey = nconf.get('GOOGLE_KEY');
 var adsense = nconf.get('GOOGLE_ADSENSE');
 
 var boots = function (req, res, next) {
-  serand.boots([], function (err, configs) {
+  serand.boots({}, function (err, configs) {
     if (err) {
       return next(err);
     }
