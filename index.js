@@ -4,15 +4,14 @@ var bodyParser = require('body-parser');
 var dust = require('dustjs-linkedin');
 var _ = require('lodash');
 
-var locate = require('locate');
-var utils = require('utils');
+var sera = require('sera');
 var serand = require('serand');
 var errors = require('errors');
 var serandi = require('serandi');
 
 var domain = 'www';
 var version = nconf.get('INDEX_' + domain.toUpperCase());
-var server = utils.serverUrl();
+var server = sera.serverUrl();
 var cdn = nconf.get('CDN_STATICS');
 var googleKey = nconf.get('GOOGLE_KEY');
 var adsense = nconf.get('GOOGLE_ADSENSE');

@@ -12,16 +12,10 @@
         "body-parser": "1.*",
         "nconf": "0.10.0",
         "logger": "serandules/logger#master",
-        "utils": "serandules/utils#master",
+        "sera": "serandules/sera#master",
         "serandi": "serandules/serandi#master",
         "locate": "serandules/locate#master",
-        "auth": "serandules/auth#master",
-        "user-service": "serandules/user-service#master",
-        "client-service": "serandules/client-service#master",
-        "token-service": "serandules/token-service#master",
-        "vehicle-service": "serandules/vehicle-service#master",
-        "vehicle-make-service": "serandules/vehicle-make-service#master",
-        "vehicle-model-service": "serandules/vehicle-model-service#master"
+        "auth": "serandules/auth#master"
     },
     "repository": {
         "type": "git",
